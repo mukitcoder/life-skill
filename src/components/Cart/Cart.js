@@ -10,11 +10,13 @@ const Cart = (props) => {
   }
   return (
     <div className='text-white cart-area'>
-      <h2>Guest Added {cart.length}</h2>
-      <p>Guest Added:{total} </p>
-      <div className='text-white cart-add-area mx-5'>
-        {cart.map((guest) => (
-          <p>{guest.name} <img src={guest.img} alt="" /></p>
+      <h4 className="text-warning">Total Guest Hired: {cart.length}</h4>
+      <h5>Total fees: $ {total} </h5>
+      <div className='text-white mt-4'>
+        {cart.map((guest) => (<div className="cart-add-area rounded-pill">
+            <p className="px-2 mx-2">{guest.name} <img className="ms-4" src={guest.img} alt="" /></p>
+        </div>
+          
         ))}
       </div>
     </div>

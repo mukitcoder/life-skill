@@ -6,7 +6,7 @@ const Guest = (props) => {
   const { name, img, age, occupation, fee, country } = props.guest;
   return (
     <div className="col guest">
-      <div class="card h-100 guest-card text-center fw-bolder">
+      <div className="card h-100 guest-card text-center fw-bolder">
         <img src={img} className="card-img-top mx-auto my-3" alt="..." />
         <div className="card-body text-white">
           <h5 className="card-title text-warning">Name: {name}</h5>
