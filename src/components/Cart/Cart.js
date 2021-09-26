@@ -14,7 +14,7 @@ const Cart = (props) => {
       <h5>Total fees: $ {total} </h5>
       <div className='text-white mt-4'>
         {cart.map((guest) => (<div className="cart-add-area rounded-pill">
-            <p className="px-2 mx-2">{guest.name} <img className="ms-4" src={guest.img} alt="" /></p>
+            <p className="px-2 mx-2"><img className="mx-3 rounded my-auto" src={guest.img} alt="" /> {guest.name}</p>
         </div>
           
         ))}

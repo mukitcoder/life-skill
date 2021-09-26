@@ -1,8 +1,11 @@
 import React from "react";
 import "./Guest.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoins } from '@fortawesome/free-solid-svg-icons'
 
 const Guest = (props) => {
   console.log(props);
+  const coin = <FontAwesomeIcon icon={faCoins} />
   const { name, img, age, occupation, fee, country } = props.guest;
   return (
     <div className="col guest">
@@ -14,13 +17,11 @@ const Guest = (props) => {
           <p className="card-text">Occupation: {occupation}</p>
           <p className="card-text">Fee: ${fee}</p>
           <p className="card-text">Country: {country}</p>
-            <div className="mx-auto w-50">
+            <div className="mx-auto w-100">
             <button 
             onClick={() => props.handleAddToCart(props.guest)}
             className="regular-btn btn btn-warning opacity-75"
-          >
-            Hire Now
-          </button>
+          >{coin} Hire Now</button>
             </div>
         </div>
 

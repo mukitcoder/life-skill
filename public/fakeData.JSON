@@ -30,7 +30,7 @@
     "id": 4,
     "name": "Gary Vaynerchuk",
     "age": 45,
-    "occupation": "Entrepreneur",
+    "occupation": "Entrepreneur &  Motivational Speaker",
     "country": "Belarus",
     "fee": 400000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUKnwlRjie3OnYF4nsgzNEbthffSR_jHfPMw&usqp=CAU"
@@ -57,7 +57,7 @@
     "id": 7,
     "name": "Deepak Chopra",
     "age": 74,
-    "occupation": "Indian-American author",
+    "occupation": "Author &  Motivational Speaker",
     "country": "India",
     "fee": 300000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMoMfo3_PfiGGhVYYy1zgmZoPP8RHnRNbmug&usqp=CAU"
@@ -66,7 +66,7 @@
     "id": 8,
     "name": "Robin Sharma",
     "age": 57,
-    "occupation": "Writer",
+    "occupation": "Writer &  Motivational Speaker",
     "country": "Canada",
     "fee": 600000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjmjSosDTLv2g3R6aqe8CA3GH2EacPizdX9A&usqp=CAU"
@@ -84,7 +84,7 @@
     "id": 10,
     "name": "Grant Cardone",
     "age": 63,
-    "occupation": "American author",
+    "occupation": "American author & Motivational Speaker",
     "country": "United States",
     "fee": 700000,
     "img": "https://i.ytimg.com/vi/Tzp_L06LnVc/maxresdefault.jpg"
@@ -93,7 +93,7 @@
     "id": 11,
     "name": "Suze Orman",
     "age": 70,
-    "occupation": "American financier",
+    "occupation": "American financier & Motivational Speaker",
     "country": "United States",
     "fee": 600000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZj9XnHe1qfgAMnTfuKApg8VNFFAamrOGjuA&usqp=CAU"
@@ -102,7 +102,7 @@
     "id": 12,
     "name": "Lance Secretan",
     "age": 82,
-    "occupation": "Author",
+    "occupation": "Author & Motivational Speaker",
     "country": "United States",
     "fee": 300000,
     "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSt3GzbkAa6Pr1kE2mFttPRoQlELPSPqRuPeg&usqp=CAU"

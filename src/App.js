@@ -1,6 +1,7 @@
 import './App.css';
 import LifeSkillProgram from './components/LifeSkillProgram/LifeSkillProgram';
-import Header from './Header/Header';
+import Header from './components/Header/Header';
+import Banner from './components/Banner/Banner';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header></Header>
       </div>
       <div className="container">
+        <Banner></Banner>
       <LifeSkillProgram></LifeSkillProgram>
       </div>
     </div>
