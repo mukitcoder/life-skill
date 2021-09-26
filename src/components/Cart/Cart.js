@@ -9,10 +9,10 @@ const Cart = (props) => {
     total = total + guest.fee;
   }
   return (
-    <div>
+    <div className='text-white cart-area'>
       <h2>Guest Added {cart.length}</h2>
       <p>Guest Added:{total} </p>
-      <div>
+      <div className='text-white cart-add-area mx-5'>
         {cart.map((guest) => (
           <p>{guest.name} <img src={guest.img} alt="" /></p>
         ))}

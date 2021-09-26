@@ -1,3 +1,11 @@
 img{
 width:100px;
+height: 100px;
+}
+
+.cart-area{
+
+}
+.cart-add-area{
+    background-color: #868b8db6;
 }

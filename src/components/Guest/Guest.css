@@ -3,3 +3,15 @@
     height: 100px;
     border-radius: 50%;
 }
+.guest-card{
+    background-color: #868b8db6;
+}
+.regular-btn{
+    font-weight: 500;
+}
+.regular-btn:hover{
+    border: 1px solid white;
+    background-color: #ff9f43;
+    color: white;
+    font-weight: 500;
+} 

@@ -6,20 +6,22 @@ const Guest = (props) => {
   const { name, img, age, occupation, fee, country } = props.guest;
   return (
     <div className="col guest">
-      <div class="card h-100">
+      <div class="card h-100 guest-card text-center fw-bolder">
         <img src={img} className="card-img-top mx-auto my-3" alt="..." />
-        <div className="card-body">
-          <h5 className="card-title">Name: {name}</h5>
+        <div className="card-body text-white">
+          <h5 className="card-title text-warning">Name: {name}</h5>
           <p className="card-text">Age: {age} years old</p>
           <p className="card-text">Occupation: {occupation}</p>
           <p className="card-text">Fee: ${fee}</p>
           <p className="card-text">Country: {country}</p>
-          <button
+            <div className="mx-auto w-50">
+            <button 
             onClick={() => props.handleAddToCart(props.guest)}
-            className="regular-btn"
+            className="regular-btn btn btn-warning opacity-75"
           >
-            Add To Cart
+            Hire Now
           </button>
+            </div>
         </div>
 
         <div className="card-footer">
