@@ -1,6 +1,6 @@
 # Project Name : Life Skill Development.
 
-### Website link : [SkillsYouNeed](https://www.skillsyouneed.com/ps/personal-skills-mind.html)
+### Website link : [SkillsYouNeed](https://skillsyouneed.netlify.app)
 This website are created to arrange Skill Development Programs and events.
 This section of Skills You Need deals with looking after your mind, and with harnessing its power to help you to achieve more, and particularly to achieve the right things for you. It describes some useful mind-skills, including Creative Thinking and Memory Skills.
 
