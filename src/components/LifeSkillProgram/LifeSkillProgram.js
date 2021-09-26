@@ -7,17 +7,19 @@ const LifeSkillProgram = () => {
   const [guests, setGuests] = useState([]);
   const [cart, setCart] = useState([])
 
+  // Fake Data 
   useEffect(() => {
     fetch(`./fakeData.JSON`)
       .then((res) => res.json())
       .then((data) => setGuests(data));
   }, []);
 
+  // Button Function
   const handleAddToCart = (guest) => {
       const newCart = [...cart, guest];
       setCart(newCart)
   };
-
+  // Main Conatiners
   return (
     <div className="program-container row">
       <div className="guest-container col-md-9">
@@ -27,7 +29,6 @@ const LifeSkillProgram = () => {
         ))}
        </div>
       </div>
-
       <div className="cart-container col-md-3">
         <Cart cart={cart}></Cart>
       </div>

@@ -9,10 +9,12 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 const Guest = (props) => {
+  // FonstAwesome Icons
   const coin = <FontAwesomeIcon icon={faCoins} />;
   const fb = <FontAwesomeIcon icon={faFacebookSquare} />;
   const insta = <FontAwesomeIcon icon={faInstagramSquare} />;
   const twitter = <FontAwesomeIcon icon={faTwitterSquare} />;
+  // Distructiong
   const { name, img, age, occupation, fee, country } = props.guest;
   return (
     <div className="col guest">
@@ -33,7 +35,7 @@ const Guest = (props) => {
             </button>
           </div>
         </div>
-
+        
         <div className="card-footer fs-3 d-flex mx-auto p-0">
           <p className="text-white social-icon">{fb}</p>
           <p className="text-white px-5 social-icon">{twitter}</p>

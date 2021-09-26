@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserTie } from "@fortawesome/free-solid-svg-icons";
 
 const Cart = (props) => {
+  // FonstAwesone Icon
   const speakers = <FontAwesomeIcon icon={faUserTie} />;
   const { cart } = props || {};
   let total = 0;

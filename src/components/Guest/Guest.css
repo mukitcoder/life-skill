@@ -1,7 +1,9 @@
+/* Guest portion Styles */
 .guest img{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    border: 1px solid wheat;
 }
 .guest-card{
     background-color: #868b8db6;

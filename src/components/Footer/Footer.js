@@ -1,6 +1,7 @@
 import React from "react";
 import "./Footer.css";
 
+// Footer Section
 const Footer = () => {
   return (
     <div className=" row bg-dark opacity-75 mt-4 footer-style text-white">
