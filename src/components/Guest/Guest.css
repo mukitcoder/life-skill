@@ -15,3 +15,7 @@
     color: white;
     font-weight: 500;
 } 
+.social-icon:hover{
+    color: #ff9f43 !important;
+    cursor: pointer;
+}
